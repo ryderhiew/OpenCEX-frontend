@@ -14,7 +14,7 @@
 <script>
 import BaseComponent from "~/components/layout/Base.vue";
 import globalWSSubscriptions from "~/helpers/globalWSSubscriptions";
-import localConfig from "./local_config";
+import localConfig from "@/local_config";
 
 export default {
   components: {
