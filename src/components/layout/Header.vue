@@ -12,12 +12,7 @@
   >
     <div class="header__logo">
       <a class="header__logo-link" href="/">
-        <img
-          width="135"
-          :src="
-            localConfig.logo ? localConfig.logo : '/public/img/logo.png'
-          "
-        />
+        <img width="135" :src="localConfig.logo ? localConfig.logo : '/public/img/logo.png'" />
       </a>
     </div>
 
