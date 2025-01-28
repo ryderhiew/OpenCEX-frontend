@@ -1,4 +1,4 @@
-import {config} from "../local_config";
+import { config } from "../local_config";
 export default {
   methods: {
     handleLogout() {
