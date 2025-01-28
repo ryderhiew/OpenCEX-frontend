@@ -13,11 +13,10 @@ ENV PATH /app/node_modules/.bin:$PATH
 COPY . .
 
 # Dynamically create local_config.js if ARG is provided
-RUN echo "$localconfig" > /app/src/local_config.js
-
+RUN echo "$localconfig" | sed '/^$/d' > /app/src/local_config.js
 # Install dependencies
 RUN yarn install
-
+RUN yarn prettier --write /app/src/local_config.js
 # Build the application
 RUN yarn build
 
