@@ -7,7 +7,7 @@
             {{ new Date().getFullYear() }} ©
             {{ $t("common.copyright", { title: localConfig.project_title }) }}
           </div>
-          <div class="rights !mb-2">{{ $t("common.built_by") }}</div>
+          <!-- <div class="rights !mb-2">{{ $t("common.built_by") }}</div> -->
           <div class="rights">{{ $t("common.rights") }}</div>
           <div class="footer__socials-container">
             <a
