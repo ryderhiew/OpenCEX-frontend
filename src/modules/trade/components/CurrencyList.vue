@@ -202,7 +202,7 @@ export default {
     defaultPair: {
       type: String,
       required: false,
-      default: '',
+      default: "",
     },
   },
   emits: ["setCurPair"],
