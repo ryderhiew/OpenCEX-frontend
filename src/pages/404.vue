@@ -6,9 +6,7 @@
           <img
             width="200"
             class="error__logo"
-            :src="
-              localConfig.logo ? localConfig.logo : '/public/img/logo.png'
-            "
+            :src="localConfig.logo ? localConfig.logo : '/public/img/logo.png'"
         /></router-link>
       </div>
       <div class="error__container">
